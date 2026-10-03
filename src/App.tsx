@@ -44,7 +44,7 @@ function App() {
         <h2 id="titulo-contacto">Contacto</h2>
         <p>
           Puedes escribirme a:{' '}
-          <a href="mailto:tu-correo@ejemplo.com">tu-correo@ejemplo.com</a>
+          <a href="mailto:tu-correo@ejemplo.com">vgp1021@gmail.com</a>
         </p>
       </section>
 
