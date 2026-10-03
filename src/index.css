@@ -1,5 +1,5 @@
 :root {
-  --text: #1a1a1a;
+  --text: #000000;
   --text-h: #d63384;
   --bg: #f5efe3;
   --border: #f3d3e4;
@@ -32,7 +32,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text: #d4d4d8;
+    --text: #000000;
     --text-h: #f9fafb;
     --bg: #ffffff;
     --border: #f3d3e4;
