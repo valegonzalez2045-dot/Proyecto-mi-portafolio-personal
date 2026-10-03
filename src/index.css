@@ -1,7 +1,7 @@
 :root {
   --text: #000000;
   --text-h: #d63384;
-  --bg: #f5efe3;
+  --bg: #e9dfc9;
   --border: #f3d3e4;
   --code-bg: #fdf2f8;
   --accent: #d63384;
@@ -62,7 +62,7 @@
 
 body {
   margin: 0;
-  background: linear-gradient(135deg, #f5efe3 0%, #efe3f7 100%);
+  background: linear-gradient(135deg, #e9dfc9 0%, #e2d0f0 100%);
   min-height: 100svh;
 }
 
@@ -71,6 +71,10 @@ h2 {
   font-family: var(--heading);
   font-weight: 500;
   color: #d63384;
+}
+
+h3 {
+  color: #5b21b6;
 }
 
 h1 {
