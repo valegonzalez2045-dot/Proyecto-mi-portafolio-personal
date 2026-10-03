@@ -1,0 +1,71 @@
+.portafolio {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.encabezado h1 {
+  margin-bottom: 30px;
+}
+
+.presentacion {
+  font-size: 18px;
+  max-width: 60ch;
+}
+
+section h2 {
+  border-bottom: 2px solid var(--accent-border);
+  padding-bottom: 4px;
+  margin-bottom: 12px;
+}
+
+.chips {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chips li {
+  background: var(--accent-bg);
+  color: var(--text-h);
+  border: 1px solid var(--accent-border);
+  border-radius: 999px;
+  padding: 4px 12px;
+}
+
+.tarjetas {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+@media (min-width: 640px) {
+  .tarjetas {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.tarjeta {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: var(--shadow);
+}
+
+.tarjeta h3 {
+  margin-top: 0;
+  color: var(--text-h);
+}
+
+footer {
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+  color: var(--text);
+  font-size: 14px;
+}
